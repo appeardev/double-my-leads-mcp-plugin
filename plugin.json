@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "double-my-leads",
+  "version": "1.0.0",
+  "description": "Double My Leads remote MCP. Transactional WhatsApp messaging, groups, sessions, inbox, and CRM over Streamable HTTP.",
+  "author": {
+    "name": "Jorge Diaz",
+    "url": "https://github.com/appeardev"
+  },
+  "homepage": "https://doublemyleads.com/api",
+  "repository": "https://github.com/appeardev/wasndr-mcp-plugin",
+  "license": "MIT",
+  "keywords": ["double-my-leads", "whatsapp", "mcp", "crm"]
+}
