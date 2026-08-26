@@ -1,18 +1,24 @@
-# WAsndr
+# Double My Leads
 
-This repo is the Open Plugins package for the WAsndr remote MCP server. The server itself is already running at `https://panel.wasndr.com/mcp`. Nothing here reimplements those tools.
+This repo is the Open Plugins package for the Double My Leads remote MCP server. The public connect URL is `https://api.chatconnector.app/mcp`. Nothing here reimplements those tools.
 
-Public listing name is **WAsndr**, not Double My Leads. The machine name in `plugin.json` is `wasndr` because Agent Plugins only allows lowercase `a-z0-9-.`.
+Public listing name is **Double My Leads**. The machine name in `plugin.json` is `double-my-leads` because Agent Plugins only allows lowercase `a-z0-9-.`.
+
+`https://panel.wasndr.com/mcp` is a legacy alias on the same Coolify API app. Leave it up. Do not list it as the primary connect URL.
+
+The connect host is `api.chatconnector.app`. The apex `chatconnector.app` is a different site.
 
 ## Install from cursor.directory
 
 This repo *is* the package. It is not listed on cursor.directory until Jorge submits it.
 
-After that listing exists, install WAsndr from [cursor.directory](https://cursor.directory). Until then, add the server by hand in Cursor.
+After that listing exists, install Double My Leads from [cursor.directory](https://cursor.directory). Until then, add the server by hand in Cursor.
+
+Jorge submits at [cursor.directory/plugins/new](https://cursor.directory/plugins/new): sign in, paste `https://github.com/appeardev/wasndr-mcp-plugin`, set the listing name to Double My Leads, submit.
 
 ## Mint a key
 
-1. Sign in to the WAsndr dashboard.
+1. Sign in to the dashboard.
 2. Open Developer → API (`/api-settings`).
 3. Create a key. It starts with `wsndr_`.
 
@@ -25,8 +31,8 @@ Cursor → Customize → MCP, or edit `~/.cursor/mcp.json` / `.cursor/mcp.json`:
 ```json
 {
   "mcpServers": {
-    "wasndr": {
-      "url": "https://panel.wasndr.com/mcp",
+    "double-my-leads": {
+      "url": "https://api.chatconnector.app/mcp",
       "headers": {
         "Authorization": "Bearer ${env:WASNDR_API_KEY}"
       }
@@ -39,7 +45,7 @@ The packaged `mcp.json` and `.mcp.json` in this repo carry the URL only. Agent P
 
 ## Transactional, not bulk
 
-WAsndr is a notification API. Order confirmations, reminders, agent replies. Not a bulk broadcast pipe. If you need mass outreach, this is the wrong product.
+This is a notification API. Order confirmations, reminders, agent replies. Not a bulk broadcast pipe. If you need mass outreach, this is the wrong product.
 
 ## Tools
 
