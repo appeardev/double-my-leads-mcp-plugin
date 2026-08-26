@@ -8,7 +8,7 @@
     "url": "https://github.com/appeardev"
   },
   "homepage": "https://doublemyleads.com/api",
-  "repository": "https://github.com/appeardev/wasndr-mcp-plugin",
+  "repository": "https://github.com/appeardev/double-my-leads-mcp-plugin",
   "license": "MIT",
   "keywords": ["double-my-leads", "whatsapp", "mcp", "crm"]
 }
