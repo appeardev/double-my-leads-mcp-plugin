@@ -14,7 +14,7 @@ This repo *is* the package. It is not listed on cursor.directory until Jorge sub
 
 After that listing exists, install Double My Leads from [cursor.directory](https://cursor.directory). Until then, add the server by hand in Cursor.
 
-Jorge submits at [cursor.directory/plugins/new](https://cursor.directory/plugins/new): sign in, paste `https://github.com/appeardev/wasndr-mcp-plugin`, set the listing name to Double My Leads, submit.
+Jorge submits at [cursor.directory/plugins/new](https://cursor.directory/plugins/new): sign in, paste `https://github.com/appeardev/double-my-leads-mcp-plugin`, set the listing name to Double My Leads, submit.
 
 ## Mint a key
 
